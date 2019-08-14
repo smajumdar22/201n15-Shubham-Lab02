@@ -1,0 +1,18 @@
+body{
+    background: teal;
+  }
+  p{
+    border: 10px solid black;
+  }
+  
+  ol {
+    color: blue;
+  }
+  
+  ul li {
+    background: rgb(110, 91, 94);
+  }
+  
+  .favourite {
+    font-weight: bold;
+  }
