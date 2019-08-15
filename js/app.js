@@ -23,7 +23,7 @@ if(genreMovies === 'yes'||genreMovies === 'no'|| genreMovies === 'y'|| genreMovi
 
 }
 else{
-  alert(userName + ' You dont take instructions very well.');
+  alert(userName + ' you dont take instructions very well.');
 
 }
 var favFood = prompt('Do you think I like spicy food?');
@@ -36,7 +36,7 @@ if(favFood === 'yes'||favFood === 'no'|| favFood === 'y'|| favFood === 'n'){
   }
 }
 else {
-  alert(userName + ' You are one stubborn human being.');
+  alert(userName + ' you are one stubborn human being.');
 }
 
 var favDrink = prompt('Do you think I like soda?')
@@ -44,7 +44,7 @@ console.log('Answer fav drink -' + favDrink);
 favDrink = favDrink.toLowerCase();
 if(favDrink=== 'yes'||favFood === 'no'|| favFood === 'y'|| favFood === 'n'){
   alert('ok lets move on ' + userName);
-  if(favDrink=== 'yes'||favFood === 'y'){
+  if(favDrink=== 'no'||favFood === 'n'){
     count++;
   }
 }
@@ -58,7 +58,7 @@ favPet = favPet.toLowerCase();
 if(favPet=== 'yes'||favPet=== 'no'|| favPet === 'y'|| favPet === 'n'){
   alert('ok lets move on ' + userName);
   if(favPet=== 'yes'||favPet=== 'y'){
-    count++
+    count++;
   }
 }
 else{
@@ -70,8 +70,8 @@ console.log('Answer fav place -' + favPlace);
 favPlace = favPlace.toLowerCase();
 if(favPlace=== 'yes'||favPlace=== 'no'|| favPlace === 'y'|| favPlace === 'n'){
   alert('ok lets move on ' + userName);
-  if(favPlace=== 'yes'||favPlace=== 'y'){
-    count++
+  if(favPlace=== 'no'||favPlace=== 'n'){
+    count++;
   }
 }
 else{
