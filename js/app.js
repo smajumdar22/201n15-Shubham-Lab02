@@ -39,7 +39,7 @@ else {
   alert(userName + ' you are one stubborn human being.');
 }
 
-var favDrink = prompt('Do you think I like soda?')
+var favDrink = prompt('Do you think I like soda?');
 console.log('Answer fav drink -' + favDrink);
 favDrink = favDrink.toLowerCase();
 if(favDrink=== 'yes'||favFood === 'no'|| favFood === 'y'|| favFood === 'n'){
@@ -52,7 +52,7 @@ else{
   alert(userName + ' I dont know what to do with you');
 }
 
-var favPet = prompt('Do you think I like dogs?')
+var favPet = prompt('Do you think I like dogs?');
 console.log('Answer fav pet -' + favPet);
 favPet = favPet.toLowerCase();
 if(favPet=== 'yes'||favPet=== 'no'|| favPet === 'y'|| favPet === 'n'){
@@ -65,7 +65,7 @@ else{
   alert(userName + ' I think you simply cant read');
 }
 
-var favPlace = prompt('Do you think I want to visit Antarctica?')
+var favPlace = prompt('Do you think I want to visit Antarctica?');
 console.log('Answer fav place -' + favPlace);
 favPlace = favPlace.toLowerCase();
 if(favPlace=== 'yes'||favPlace=== 'no'|| favPlace === 'y'|| favPlace === 'n'){
@@ -81,9 +81,9 @@ alert(userName + ' your total score is '+ count +'/5');
 
 //Checking count value to display message
 if(count >=3){
-  alert(userName + ' you passed')
+  alert(userName + ' you passed');
 }
 else{
-  alert(userName + ' you failed')
+  alert(userName + ' you failed');
 }
 
