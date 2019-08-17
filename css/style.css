@@ -1,43 +1,62 @@
 body{
-    background:rgb(26, 235, 217)
-  }
-  
-  ol {
-    color:rgb(7, 8, 80);
-  }
-  
-  li {
-    text-align: center;
-    line-height: 1.6;
-  }
-  
-  .favourite {
-    align-content: center;
-  }
-  .image{
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  background:rgb(200, 211, 210)
+}
+#header{
+  font-weight: 8;
+  text-align :left;
+}
 
-  }
-  #header{
-    font-weight: 8;
-    text-align :left;
-  }
-  h1{
-    text-align: center;
-    font-size: 40px;
-    font-weight: 100;
-    line-height: 1.6;
-  }
-  #para{
-    text-align: center;
-    font-size: 20px;
-    font-weight: 100;
-    line-height: 1.6;
-  }
+#container {
+  width:100%;
+  text-align:center;
+}
+#left {
+  float:left;
+  width:100px;
+}
+#aboutme {
+  display: inline-block;
+  margin:0 auto;
+  width:1200px;
+  border:solid;
+  padding: 100px;
+}
+#knowledge{
+  border: dotted;
+  margin: 20px;
+  padding: 100px; 
+  width: 300px;
+  height: 150px; 
+  float: right;
+  columns: black;
+}
+h1{
+  font-size: 40px;
+  padding: 10px;
+}
+.heading{
+  font-size: 20px;
+  padding: 5px;
+  display: block;
+  width: 300px;
+  margin:none;
+  
+}
+#topten{
+  background:url(/Users/smajumdar22/codeFellows/201/201n15-Shubham-Lab02/img/WorldMp.gif);
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+  border: dotted;
+  margin: 20px;
+  padding: 100px; 
+  width: 320px;
+  height: 150px; 
+  float: left;
+  columns: black;
+
+}
+#paratopten{
+  font-size: 18px;
+  padding: 10px;
+}
