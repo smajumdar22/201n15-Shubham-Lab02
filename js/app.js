@@ -1,11 +1,13 @@
 'use strict';
 
-'use strict';
+function userName(){
 
-var userName = prompt('What is your name?');//defining variable and assigning value to variable
+
+var userName = prompt ('What is your name?');
 console.log('user name -' + userName);//adding console log
-//Displaying message
-alert('Hello ' + userName + '.Lets play a game called GUESS WHAT? Are you ready?');
+return userName;
+
+}
 
 //defining variable and assigning value to variable
 var genreMovies = prompt('Do you think I like horror movies?');
@@ -77,6 +79,10 @@ if (favPlace === 'no' || favPlace === 'n') {
 else {
   alert(userName + ' I have no hope for you');
 }
+  
+
+
+
 
 var totalSteps = '10000';
 var i = 0;
